@@ -35,4 +35,5 @@ ENV PATH="/usr/local/openresty/bin:/usr/local/openresty/nginx/sbin:$PATH"
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["/usr/local/openresty/nginx/sbin/nginx", "-g", "daemon off;"]
+
