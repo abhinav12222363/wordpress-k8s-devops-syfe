@@ -1,1 +1,0 @@
-# wordpress-k8s-devops-syfe
